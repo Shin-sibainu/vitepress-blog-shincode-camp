@@ -4,6 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "Shincode_Blog",
   description: "shincode_blog",
+  base: "/vitepress-blog-shincode-camp/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     search: {
